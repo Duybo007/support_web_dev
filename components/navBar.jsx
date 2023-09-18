@@ -13,11 +13,11 @@ function NavBar() {
     const [active, setActive] = useState("");
     const [scrollingDown, setScrollingDown] = useState(false);
     const [openNav, setOpenNav] = React.useState(false);
-    const [isMobile, setIsMobile] = useState(false);
+    const [isMobile, setIsMobile] = useState();
 
     React.useEffect(() => {
         if (window.innerWidth <= 1024) {
-            setIsMobile(false)
+            setIsMobile(true)
         }
         window.addEventListener(
             "resize",
