@@ -6,18 +6,19 @@ import {
     Navbar,
     MobileNav,
     Typography,
-    Button,
-    IconButton,
-    Card,
+    IconButton
 } from "@material-tailwind/react";
 
 function NavBar() {
     const [active, setActive] = useState("");
     const [scrollingDown, setScrollingDown] = useState(false);
     const [openNav, setOpenNav] = React.useState(false);
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
+    const [isMobile, setIsMobile] = useState(false);
 
     React.useEffect(() => {
+        if (window.innerWidth <= 1024) {
+            setIsMobile(false)
+        }
         window.addEventListener(
             "resize",
             () => window.innerWidth >= 960 && setOpenNav(false)
