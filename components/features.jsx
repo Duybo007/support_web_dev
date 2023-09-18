@@ -19,20 +19,20 @@ function Features() {
                     </div>
                 </motion.div>
                 <motion.div className='bg-[#FAFAFA] flex justify-center items-center'>
-                    <div className='grid grid-cols-2 gap-[25px] 2xl:gap-[100px] w-[500px]'>
+                    <div className='grid grid-cols-2 gap-[25px] 2xl:gap-[30px] w-[500px]'>
                         <motion.div 
                             initial={{ y: 200, opacity: 0 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1 }}
                             viewport={{ once: true }}
                             className='flex flex-col justify-center items-center gap-5'>
-                            <div className='flex justify-center items-center  border-[1px] border-button_primary rounded-full p-5 xl:w-[140px] w-[100px] xl:h-[140px] h-[100px]'>
+                            <div className='flex justify-center items-center  border-[1px] border-button_primary rounded-full p-5 w-[100px] h-[100px] '>
                                 <img
                                     className='w-[80px] mr-[-10px]'
                                     src="/home-expertise.svg" />
 
                             </div>
-                            <p className='uppercase text-xl md:text-2xl font-bold text-center'>Lorem</p>
+                            <p className='uppercase text-xl 2xl:text-2xl font-bold text-center'>Lorem</p>
                         </motion.div>
                         <motion.div 
                             initial={{ y: 200, opacity: 0 }}
@@ -40,13 +40,13 @@ function Features() {
                             transition={{ duration: 1, delay: 0.5 }}
                             viewport={{ once: true }}
                             className='flex flex-col justify-center items-center gap-5'>
-                            <div className='flex justify-center items-center border-[1px] border-button_primary rounded-full p-5 xl:w-[140px] w-[100px] xl:h-[140px] h-[100px]'>
+                            <div className='flex justify-center items-center border-[1px] border-button_primary rounded-full p-5  w-[100px]  h-[100px]'>
                                 <img
                                     className=' '
                                     src="/home-hygiene.svg" />
 
                             </div>
-                            <p className='uppercase text-xl md:text-2xl font-bold text-center'>Lorem Ipsum</p>
+                            <p className='uppercase text-xl 2xl:text-2xl font-bold text-center'>Lorem Ipsum</p>
                         </motion.div>
                         <motion.div 
                             initial={{ y: 200, opacity: 0 }}
@@ -54,12 +54,12 @@ function Features() {
                             transition={{ duration: 1, delay: 0.75 }}
                             viewport={{ once: true }}
                             className='flex flex-col justify-center items-center gap-5'>
-                            <div className='flex justify-center items-center border-[1px] border-button_primary rounded-full p-5 xl:w-[140px] w-[100px] xl:h-[140px] h-[100px]'>
+                            <div className='flex justify-center items-center border-[1px] border-button_primary rounded-full p-5  w-[100px]  h-[100px]'>
                                 <img
                                     className=''
                                     src="/home-lab.svg" />
                             </div>
-                            <p className='uppercase text-xl md:text-2xl font-bold text-center'>Lorem Ipsum</p>
+                            <p className='uppercase text-xl 2xl:text-2xl font-bold text-center'>Lorem Ipsum</p>
                         </motion.div>
                         <motion.div 
                             initial={{ y: 200, opacity: 0 }}
@@ -67,13 +67,13 @@ function Features() {
                             transition={{ duration: 1, delay: 1 }}
                             viewport={{ once: true }}
                             className='flex flex-col justify-center items-center gap-5'>
-                            <div className='flex justify-center items-center border-[1px] border-button_primary rounded-full p-5 xl:w-[140px] w-[100px] xl:h-[140px] h-[100px]'>
+                            <div className='flex justify-center items-center border-[1px] border-button_primary rounded-full p-5  w-[100px]  h-[100px]'>
                                 <img
                                     className='w-[70px]'
                                     src="/home-retention.svg" />
 
                             </div>
-                            <p className='uppercase text-xl md:text-2xl font-bold text-center'>Lorem</p>
+                            <p className='uppercase text-xl 2xl:text-2xl font-bold text-center'>Lorem</p>
                         </motion.div>
                     </div>
                 </motion.div>
